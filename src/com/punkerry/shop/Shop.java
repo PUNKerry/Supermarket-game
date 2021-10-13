@@ -1,6 +1,7 @@
 package com.punkerry.shop;
 
 import com.punkerry.Main;
+import com.punkerry.auxiliarytypes.ShopCalendar;
 import com.punkerry.persons.Buyer;
 import com.punkerry.products.Product;
 
@@ -40,6 +41,6 @@ public class Shop {
 
     public Shop() {
         this.productsToSell = new ArrayList<>();
-        this.dateCheckerNineThousand = new ShopCalendar();
+
     }
 }

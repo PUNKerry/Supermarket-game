@@ -5,7 +5,7 @@ import com.punkerry.Main;
 import java.util.Random;
 
 public class Buyer {
-    Names name;
+    private Names name;
 
     private int money;
     private int payDay;

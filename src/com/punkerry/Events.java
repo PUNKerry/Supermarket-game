@@ -71,6 +71,10 @@ public class Events implements ActionListener {
             initRandomEvent();
             managerCheck();
 
+            if(counter % 2 == 0) {
+                //date update
+                manager.getCalendar().updateTime();
+            }
 
         }
     }

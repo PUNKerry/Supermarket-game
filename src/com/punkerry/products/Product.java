@@ -1,5 +1,6 @@
 package com.punkerry.products;
 
+import com.punkerry.auxiliarytypes.MyDate;
 import com.punkerry.auxiliarytypes.TypeOfProduct;
 import java.util.Date;
 import java.util.HashMap;
@@ -17,13 +18,13 @@ public class Product {
     }
 
     private double cost;
-    private Date expirationDate;
+    private MyDate expirationDate;
     private TypeOfProduct type;
     private String productName;
 
     private double saleRatio;
 
-    public Product(String name, double cost, Date expirationDate, TypeOfProduct type) {
+    public Product(String name, double cost, MyDate expirationDate, TypeOfProduct type) {
         this.productName = name;
         this.cost = cost;
         this.expirationDate = expirationDate;
@@ -47,7 +48,7 @@ public class Product {
     public double getSaleRatio() {
         return saleRatio;
     }
-    public Date checkExpirationDate() {
+    public MyDate checkExpirationDate() {
         return expirationDate;
     }
     public void changeSale(double sellValue) {
