@@ -2,8 +2,7 @@ package com.punkerry;
 
 import com.punkerry.persons.Buyer;
 import com.punkerry.persons.Manager;
-import com.punkerry.persons.Names;
-import com.punkerry.products.Product;
+import com.punkerry.auxiliarytypes.Names;
 import com.punkerry.shop.Shop;
 import com.punkerry.shop.Storage;
 

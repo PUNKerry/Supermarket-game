@@ -1,6 +1,7 @@
 package com.punkerry.persons;
 
 import com.punkerry.Main;
+import com.punkerry.auxiliarytypes.Names;
 
 import java.util.Random;
 

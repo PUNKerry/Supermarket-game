@@ -1,4 +1,4 @@
-package com.punkerry.persons;
+package com.punkerry.auxiliarytypes;
 
 public enum Names {
     Alex_Mason,
