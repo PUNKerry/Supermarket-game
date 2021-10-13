@@ -16,7 +16,7 @@ public class Events implements ActionListener {
 
     private static final double saleRatio = 0.5;
 
-    static Events ev;
+    public static Events ev;
 
     public Shop shop;
     public Storage storage;

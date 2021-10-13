@@ -1,5 +1,6 @@
 package com.punkerry.persons;
 
+import com.punkerry.Events;
 import com.punkerry.Main;
 import com.punkerry.auxiliarytypes.Names;
 
@@ -36,22 +37,22 @@ public class Buyer {
     private void idLikeToBuy(int seed) {
         switch (seed) {
             case 0:
-                Main.events.shop.buyProduct("milk", this);
+                Events.ev.shop.buyProduct("milk", this);
                 break;
             case 1:
-                Main.events.shop.buyProduct("alcohol", this);
+                Events.ev.shop.buyProduct("alcohol", this);
                 break;
             case 2:
-                Main.events.shop.buyProduct("chemicals", this);
+                Events.ev.shop.buyProduct("chemicals", this);
                 break;
             case 3:
-                Main.events.shop.buyProduct("chemicals", this);
+                Events.ev.shop.buyProduct("chemicals", this);
                 break;
             case 4:
-                Main.events.shop.buyProduct("fruits", this);
+                Events.ev.shop.buyProduct("fruits", this);
                 break;
             case 5:
-                Main.events.shop.buyProduct("other", this);
+                Events.ev.shop.buyProduct("other", this);
                 break;
         }
     }

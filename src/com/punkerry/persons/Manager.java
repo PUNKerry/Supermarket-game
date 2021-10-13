@@ -1,5 +1,6 @@
 package com.punkerry.persons;
 
+import com.punkerry.Events;
 import com.punkerry.Main;
 import com.punkerry.auxiliarytypes.MyDate;
 import com.punkerry.auxiliarytypes.ShopCalendar;
@@ -50,18 +51,18 @@ public class Manager {
 
     public Product iCantFind(String name) {
         ArrayList<Product> toAdd = new ArrayList<>();
-        Product currentProduct = Main.events.storage.getProduct(name);
+        Product currentProduct = Events.ev.storage.getProduct(name);
         if(currentProduct!=null) {
             for (int i = 0; i < 5 || currentProduct != null; i++) {
                 toAdd.add(currentProduct);
-                currentProduct = Main.events.storage.getProduct(name);
+                currentProduct = Events.ev.storage.getProduct(name);
             }
         }
 
         Product toReturn = toAdd.get(toAdd.size()-1);
         toAdd.remove(toAdd.size()-1);
         if(toAdd.size()>0)
-        Main.events.shop.insertProduct(toAdd);
+        Events.ev.shop.insertProduct(toAdd);
         return toReturn;
     }
 

@@ -1,5 +1,6 @@
 package com.punkerry.shop;
 
+import com.punkerry.Events;
 import com.punkerry.Main;
 import com.punkerry.auxiliarytypes.ShopCalendar;
 import com.punkerry.persons.Buyer;
@@ -34,7 +35,7 @@ public class Shop {
         }
 
         //attempt to manager
-        Main.events.manager.iCantFind(name);
+        Events.ev.manager.iCantFind(name);
 
         return null;
     }
