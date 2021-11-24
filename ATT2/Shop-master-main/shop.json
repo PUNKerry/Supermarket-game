@@ -1,0 +1,26 @@
+{
+  "shopWork": {
+    "warehousProducts": {
+      "bread": 8,
+      "grocery": 2,
+      "vegetables": 2,
+      "meat": 43,
+      "milk": 87,
+      "chemistry": 1,
+      "alcohol": 1,
+      "fruits": 3
+    },
+    "shopRoomProducts": {
+      "bread": 32,
+      "grocery": 3,
+      "vegetables": 45,
+      "meat": 27,
+      "milk": 32,
+      "chemistry": 2,
+      "alcohol": 22,
+      "fruits": 9
+    },
+    "day": 1120,
+    "workDays": 14
+  }
+}
