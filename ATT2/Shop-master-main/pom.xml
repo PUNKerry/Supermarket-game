@@ -64,6 +64,7 @@
                 </executions>
                 <configuration>
                     <mainClass>oop.kurs2.shop.Main</mainClass>
+                    <commandlineArgs>"CLI"</commandlineArgs>
                 </configuration>
             </plugin>
             <plugin>

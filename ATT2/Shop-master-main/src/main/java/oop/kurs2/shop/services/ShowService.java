@@ -4,7 +4,7 @@ import oop.kurs2.shop.model.ProductsType;
 
 import java.util.*;
 
-import static jdk.nashorn.internal.runtime.regexp.joni.Config.log;
+//import static jdk.nashorn.internal.runtime.regexp.joni.Config.log;
 
 class ShowService {
 
